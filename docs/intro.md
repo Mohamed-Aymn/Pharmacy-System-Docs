@@ -3,46 +3,30 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## What Is This?
 
-## Getting Started
+This is a documentation for Pharmacy System portfolio project, it is not written in how to use way as frameworks like documentation, but in a way to show the power points of this project!
 
-Get started by **creating a new site**.
+## What Is Pharmacy System?
+**Pharmacy System** project is a back end service (server side solution) that is designed to scale to infinity and serve the heavy load of everyday day work for a pharmacies that have several branches and may serve hundreds of transactions per minute! in addition to the ability to handle highly details business logic and rules in a traceable way.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::tip 
+**Pharmacy System** can be tailored and customized on other businesses needs.
+:::
 
-### What you'll need
+:::note 
+**Pharmacy System** it not an open-source code base, but this documentation describes it in detail!
+:::
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## User stories/Features
+[Click here](www.google.com) to open user stories/features list.
 
-## Generate a new site
+:::tip
+System requirements are elicited from a pharmacist after several meetings using event storming and other processes.
+:::
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::danger
+Not all requirements are implemented in **Pharmacy System** solution as the documented version will not be used for on ground use.
+:::
