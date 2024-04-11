@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import ApiDemonstration from "../../src/components/ApiDemonstration"
+import ApiDemonstration from "../../src/components/ApiDemonstration";
 
 # API Documentation
 
@@ -12,12 +12,40 @@ As described in [Architecture/System design section](./architecture), pharmacy s
 This demo doesn’t call a deployed version of **Pharmacy System** but it mocks it’s behavior for demonstration purposes.
 :::
 
+## Pharmacy Service
 
-<ApiDemonstration url="pharmacy.company/MedicinesSearch?isAllBranches=1&name=adol" method="Post"></ApiDemonstration>
+<ApiDemonstration
+  url="pharmacy.company/MedicinesSearch?isAllBranches=1&name=adol"
+  method="Post"
+></ApiDemonstration>
 
-<ApiDemonstration url="management.company/Medicines" method="Post"></ApiDemonstration>
+<ApiDemonstration
+  url="pharmacy.company/Branches"
+  method="Get"
+></ApiDemonstration>
 
-<ApiDemonstration url="pharmacy.company/Branches" method="Get"></ApiDemonstration>
+<ApiDemonstration
+  url="pharmacy.company/Receipts/Return"
+  method="Get"
+></ApiDemonstration>
 
+And more unlisted endpoints …
+
+## Management Service
+
+<ApiDemonstration
+  url="management.company/Medicines"
+  method="Post"
+></ApiDemonstration>
+
+<ApiDemonstration
+  url="management.company/Employees"
+  method="Put"
+></ApiDemonstration>
+
+<ApiDemonstration
+  url="management.company/Companies"
+  method="Put"
+></ApiDemonstration>
 
 And more unlisted endpoints …

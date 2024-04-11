@@ -9,7 +9,7 @@
 
 .method {
     margin-right: 1em;
-    padding: 0.5em;
+    padding: 0.3em 0.5em;
     display: block;
     width: 50px;
     display: flex;
@@ -64,4 +64,63 @@
 .upperRight:disabled {
     color: grey;
     cursor: not-allowed;
+}
+
+.lowerPart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.logger {
+    background-color: #242b35;
+    padding: 1em;
+    border-radius: var(--ifm-pre-border-radius);
+    height: 100%;
+}
+
+.result {
+    height: 100%;
+}
+
+.closeBtnContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.closeBtn {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    padding: 1em;
+    background-color: transparent;
+    border: none;
+    height: full;
+    text-align: center;
+    overflow: hidden;
+    border-top-right-radius: var(--ifm-alert-border-radius);
+    border-bottom-right-radius: var(--ifm-alert-border-radius);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ifm-color-primary);
+    cursor: pointer;
+    font-weight: bold;
+    border-right: 1px solid var(--ifm-color-emphasis-300);
+    border-bottom: 1px solid var(--ifm-color-emphasis-300);
+    transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+    --ifm-alert-background-color: var(--ifm-color-secondary-contrast-background);
+    --ifm-alert-background-color-highlight: rgba(235, 237, 240, 0.15);
+    --ifm-alert-foreground-color: var(--ifm-color-secondary-contrast-foreground);
+    --ifm-alert-border-color: var(--ifm-color-secondary-dark);
+    text-decoration: none;
+}
+
+.closeBtn:hover {
+    border-color: var(--ifm-pagination-nav-color-hover);
+}
+
+.blockTitle {
+    opacity: 0.5;
+    margin-bottom: 1em;
 }
