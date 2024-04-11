@@ -16,7 +16,7 @@ This is a documentation for Pharmacy System portfolio project, it is not written
 **Pharmacy System** can be tailored and customized on other businesses needs.
 :::
 
-:::note 
+:::info 
 **Pharmacy System** it not an open-source code base, but this documentation describes it in detail!
 :::
 

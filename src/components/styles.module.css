@@ -1,0 +1,67 @@
+.upperPart {
+    display: flex;
+    justify-content: space-between;
+    border-radius: var(--ifm-alert-border-radius);
+    border-bottom: 1px solid var(--ifm-color-emphasis-300);
+    --ifm-alert-background-color: var(--ifm-color-secondary-contrast-background);
+    margin-bottom: 2em;
+}
+
+.method {
+    margin-right: 1em;
+    padding: 0.5em;
+    display: block;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(1rem* var(--ifm-breadcrumb-size-multiplier));
+    background: var(--ifm-breadcrumb-item-background-active);
+    color: var(--ifm-breadcrumb-color-active);
+    border-radius: var(--ifm-breadcrumb-border-radius);
+}
+
+.upperLeft {
+    display: flex;
+    align-items: center;
+    padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+}
+
+.upperRight {
+    background-color: transparent;
+    border: none;
+    height: full;
+    text-align: center;
+    overflow: hidden;
+    border-top-right-radius: var(--ifm-alert-border-radius);
+    border-bottom-right-radius: var(--ifm-alert-border-radius);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ifm-color-primary);
+    cursor: pointer;
+    font-weight: bold;
+    border-right: 1px solid var(--ifm-color-emphasis-300);
+    border-top: 1px solid var(--ifm-color-emphasis-300);
+    transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+    --ifm-alert-background-color: var(--ifm-color-secondary-contrast-background);
+    --ifm-alert-background-color-highlight: rgba(235, 237, 240, 0.15);
+    --ifm-alert-foreground-color: var(--ifm-color-secondary-contrast-foreground);
+    --ifm-alert-border-color: var(--ifm-color-secondary-dark);
+    text-decoration: none;
+}
+
+.upperRight:hover {
+    border-color: var(--ifm-pagination-nav-color-hover);
+}
+
+.upperRight:hover:disabled {
+    border-right: 1px solid var(--ifm-color-emphasis-300);
+    border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.upperRight:disabled {
+    color: grey;
+    cursor: not-allowed;
+}
