@@ -15,7 +15,7 @@ Here some of used design patterns with explaining the problem they are solving, 
 - After
     - Deal with controllers as just a layer of abstraction that encapsulate business logic beneath it!
 
-    ![alt text](./sequence.svg)
+    ![Sequence Diagram](./sequenceDiagram.svg)
 
     :::tip
     Mediator class sends request to the correct handler according to the request type

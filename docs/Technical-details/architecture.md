@@ -26,4 +26,4 @@ A must have component in microservices architecture!
     
 [Database per service](https://microservices.io/patterns/data/database-per-service.html) principle is followed.
 
-DIAGRAM
+![Deployment Diagram](./DeploymentDiagram.svg)
