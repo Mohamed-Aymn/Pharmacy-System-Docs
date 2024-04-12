@@ -21,7 +21,7 @@ This is a documentation for Pharmacy System portfolio project, it is not written
 :::
 
 ## User stories/Features
-[Click here](www.google.com) to open user stories/features list.
+[Click here](https://drive.google.com/file/d/1WQWYwzRg0aOB8KKlfuPJXvbfZj7Rk8ro/view?usp=drive_link) to open user stories/features list.
 
 :::tip
 System requirements are elicited from a pharmacist after several meetings using event storming and other processes.
