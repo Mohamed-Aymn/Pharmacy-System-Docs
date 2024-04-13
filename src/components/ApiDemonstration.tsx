@@ -52,7 +52,7 @@ export default function ApiDemonstraction({ method, url }: IDemonstrationProps) 
             <div className={styles.upperPart} style={isTriggered ? { borderBottom: "none" } : null}>
                 <div className={styles.upperLeft}>
                     <span className={styles.method}>{method}</span>
-                    <span>https://{url}</span>
+                    <span className={styles.url}>https://{url}</span>
                 </div>
                 <button className={styles.upperRight} disabled={!state || isTriggered} onClick={() => setisTriggered(true)}>
                     {isTriggered ? "Triggered" : "Trigger"}!
