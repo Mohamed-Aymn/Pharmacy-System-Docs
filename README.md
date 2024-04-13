@@ -1,1 +1,1 @@
-# Pharmacy System Docs
+> This is documentation for the **Pharmacy System** portfolio project, it is not written in how to use way as frameworks like documentation, but in a way to show the power points of this project!
