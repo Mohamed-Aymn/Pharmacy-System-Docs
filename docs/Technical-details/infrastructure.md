@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Infrastructure
 
-**Pharmacy System**’s infrastructure is built with Kubernetes to avoid vendor lock trap in any of cloud services, it is 100% self-managed and migratable!
+The **Pharmacy System**’s infrastructure is built with Kubernetes to avoid vendor lock traps in any of the cloud services, it is 100% self-managed and migratable!
 
 ![Kubernetes Deployment Diagram](./KubernetesInfrastructureDiagram.svg)
 

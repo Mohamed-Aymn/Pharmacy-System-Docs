@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Tech Stack
 
-As described in [architecture](./architecture) and [design patterns](./designPatterns) sections, this solution cares a lot and built to be loosely coupled, so the used tech stack can be replaced easily without causing overhead while refactoring in case of a drift in business logic or requirements occurs.
+As described in the [architecture](./architecture) and [design patterns](./designPatterns) sections, this solution cares a lot and is built to be loosely coupled, so the used tech stack can be replaced easily without causing overhead while refactoring in case a drift in business logic or requirements occurs.
 
 Here are the main technologies that are used in this solution and the reason why they are chosen:
 

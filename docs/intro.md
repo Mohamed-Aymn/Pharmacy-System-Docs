@@ -7,19 +7,19 @@ slug: /
 
 ## What Is This?
 
-This is a documentation for Pharmacy System portfolio project, it is not written in how to use way as frameworks like documentation, but in a way to show the power points of this project!
+This is documentation for the **Pharmacy System** portfolio project, it is not written in how to use way as frameworks like documentation, but in a way to show the power points of this project!
 
 This documentation is designed for technical and non-technical users, technical details are concentrated in [this section](./Technical-details/apiDocumentation.mdx).
 
 ## What Is Pharmacy System?
-**Pharmacy System** project is a back end service (server side solution) that is designed to scale to infinity and serve the heavy load of everyday day work for a pharmacies that have several branches and may serve hundreds of transactions per minute! in addition to the ability to handle highly details business logic and rules in a traceable way.
+The **Pharmacy System** project is a back-end service (server-side solution) that is designed to scale to infinity and serve the heavy load of everyday day work for pharmacies that have several branches and may serve hundreds of transactions per minute! in addition to the ability to handle highly details business logic and rules in a traceable way.
 
 :::tip 
-**Pharmacy System** can be tailored and customized on other businesses needs.
+The **Pharmacy System** can be tailored and customized on other businesses needs.
 :::
 
 :::info Where can I find it?
-**Pharmacy System** it not an open-source code base, but this documentation describes it in detail!
+The **Pharmacy System** is not an open-source code base, but this documentation describes it in detail!
 :::
 
 ## User stories/Features
@@ -30,5 +30,5 @@ System requirements are elicited from a pharmacist after several meetings using 
 :::
 
 :::danger
-Not all requirements are implemented in **Pharmacy System** solution as the documented version will not be used for on ground use.
+Not all requirements are implemented in the **Pharmacy System** solution in this documented version.
 :::
