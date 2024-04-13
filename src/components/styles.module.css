@@ -1,5 +1,6 @@
 .upperPart {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     justify-content: space-between;
     border-radius: var(--ifm-alert-border-radius);
     border-bottom: 1px solid var(--ifm-color-emphasis-300);
@@ -25,6 +26,13 @@
     display: flex;
     align-items: center;
     padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+    flex-shrink: 1;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.url {
+    word-break: break-all;
 }
 
 .upperRight {
@@ -35,7 +43,8 @@
     overflow: hidden;
     border-top-right-radius: var(--ifm-alert-border-radius);
     border-bottom-right-radius: var(--ifm-alert-border-radius);
-    width: 20%;
+    /* width: 8ch; */
+    /* min-width: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
