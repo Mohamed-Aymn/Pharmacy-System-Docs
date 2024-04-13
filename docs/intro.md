@@ -9,6 +9,8 @@ slug: /
 
 This is a documentation for Pharmacy System portfolio project, it is not written in how to use way as frameworks like documentation, but in a way to show the power points of this project!
 
+This documentation is designed for technical and non-technical users, technical details are concentrated in [this section](./Technical-details/apiDocumentation.mdx).
+
 ## What Is Pharmacy System?
 **Pharmacy System** project is a back end service (server side solution) that is designed to scale to infinity and serve the heavy load of everyday day work for a pharmacies that have several branches and may serve hundreds of transactions per minute! in addition to the ability to handle highly details business logic and rules in a traceable way.
 
@@ -16,7 +18,7 @@ This is a documentation for Pharmacy System portfolio project, it is not written
 **Pharmacy System** can be tailored and customized on other businesses needs.
 :::
 
-:::info 
+:::info Where can I find it?
 **Pharmacy System** it not an open-source code base, but this documentation describes it in detail!
 :::
 
